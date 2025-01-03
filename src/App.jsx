@@ -3,6 +3,7 @@ import ToursList from "./projects/tours/ToursList";
 import ReviewList from "./projects/reviews-app/ReviewList";
 import QuestionList from "./projects/accordion-app/QuestionList";
 import Menu from "./projects/menu/Menu";
+import TabsApp from "./projects/tabs/TabsApp";
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <QuestionList />
 
       <Menu />
+
+      <TabsApp />
     </main>
   )
 }
