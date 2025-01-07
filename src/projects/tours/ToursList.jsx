@@ -27,10 +27,13 @@ const ToursList= () => {
     useEffect(() => {        
         fetchTours();
         
-        setTimeout(() => {
+        let loadingTimer = setInterval(() => {
             setLoad(false);
         }, 2000);
 
+        return () => {
+            clearInterval(loadingTimer);
+        }
     }, []);
 
     const removeTour = (id) => {

@@ -6,28 +6,37 @@ import Menu from "./projects/menu/Menu";
 import TabsApp from "./projects/tabs/TabsApp";
 import CarouselApp from "./projects/slider-app/CarouselApp";
 import SlickCarousel from "./projects/slider-app/SlickCarousel";
+import LoremIpsum from "./projects/lorem-ipsum/LoremIpsum";
+import ColorGeneratorApp from "./projects/color-generator/ColorGeneratorApp";
+import { ToastContainer } from "react-toastify";
 
 function App() {
 
-  return (
-    <main>
-      <BirthdayList />
+    return (
+        <main>
+            <BirthdayList />
 
-      <ToursList />
+            <ToursList />
 
-      <ReviewList />
+            <ReviewList />
 
-      <QuestionList />
+            <QuestionList />
 
-      <Menu />
+            <Menu />
 
-      <TabsApp />
+            <TabsApp />
 
-      <CarouselApp />
+            <CarouselApp />
 
-      <SlickCarousel />
-    </main>
-  )
+            <SlickCarousel />
+
+            <LoremIpsum />
+
+            <ColorGeneratorApp />          
+
+            <ToastContainer position="top-center" />  
+        </main>
+    )
 }
 
 export default App
