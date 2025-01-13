@@ -8,12 +8,16 @@ import CarouselApp from "./projects/slider-app/CarouselApp";
 import SlickCarousel from "./projects/slider-app/SlickCarousel";
 import LoremIpsum from "./projects/lorem-ipsum/LoremIpsum";
 import ColorGeneratorApp from "./projects/color-generator/ColorGeneratorApp";
+import GroceryBuddy from "./projects/grocery-buddy";
+
 import { ToastContainer } from "react-toastify";
 
 function App() {
 
     return (
         <main>
+            <ToastContainer position="top-center" />  
+            
             <BirthdayList />
 
             <ToursList />
@@ -32,9 +36,9 @@ function App() {
 
             <LoremIpsum />
 
-            <ColorGeneratorApp />          
+            <ColorGeneratorApp />
 
-            <ToastContainer position="top-center" />  
+            <GroceryBuddy />
         </main>
     )
 }
