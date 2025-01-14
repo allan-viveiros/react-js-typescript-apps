@@ -9,6 +9,7 @@ import SlickCarousel from "./projects/slider-app/SlickCarousel";
 import LoremIpsum from "./projects/lorem-ipsum/LoremIpsum";
 import ColorGeneratorApp from "./projects/color-generator/ColorGeneratorApp";
 import GroceryBuddy from "./projects/grocery-buddy";
+import Navbar from "./projects/navbar/Navbar";
 
 import { ToastContainer } from "react-toastify";
 
@@ -16,7 +17,9 @@ function App() {
 
     return (
         <main>
-            <ToastContainer position="top-center" />  
+            <ToastContainer position="top-center" />
+
+            <Navbar />
             
             <BirthdayList />
 
